@@ -1,0 +1,151 @@
+body,html{
+    margin:0;
+    padding: 0;
+    background: #fcfcfc;
+    overflow-x: hidden ;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Kurale', serif;
+}
+
+a{
+    text-decoration: none!important;
+}
+
+a:hover{
+    color: #f18100!important;
+    transition: 0.5s;
+
+}
+
+.heading-text{
+    font-size:3.5rem;
+}
+
+header{
+    width: 80vw;
+    margin: auto;
+}
+
+section{
+    height: auto;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.containerOwn{
+    height:100%;
+    width:100%;
+    overflow-x: hidden;
+    background: #fcfcfc;
+}
+
+.yellow-gold{
+   color: #f18100;
+
+}
+
+
+
+.backdrop{
+    height: auto;
+    width:100vw;
+}
+
+#particles-js{
+    position: absolute;
+    top:0;
+    left:0;
+    height:100vh;
+    width:100vw;
+    z-index: 0;
+}
+
+
+.skewed{
+    height: 100vh;
+    width:50%;
+    text-align: center;
+    float: left;
+
+}
+
+.skewed .text-box{
+    position: absolute;
+    background: #fcfcfc;
+    padding: 40px;
+    top: 28%;
+    left:25%;
+    transform: translateY(-15%);
+
+}
+
+.text-box h1{
+    font-size: 5em;
+}
+
+.slight-right{
+    margin-left: 70%;
+}
+
+.image{
+    width: 48%;
+    height: 100vh;
+    float: right;
+    
+}
+
+.image .programmer{
+    width: 50%;
+    height: 400px;
+    position: relative;
+    
+}
+
+.programmer img{
+    width:100%;  
+    height: auto;
+    margin-top:55%;
+   
+}
+
+
+.small-img{
+    width:400px;
+}
+
+#text-main{
+    font-size: 1.2rem;
+}
+
+@media all and(max-width:1000px){
+    #text-main{
+        font-size: 1.1rem;
+    }
+    
+}
+
+@media all and(max-width:700px){
+    #text-main{
+        font-size: .7rem;
+    }
+    
+}
+
+
+
+
+@media all and (max-width:400px){
+    .small-img{
+        width:300px;
+    }
+    #text-main{
+        font-size: 1rem;
+        text-align: center;
+    }
+}
+
+
+

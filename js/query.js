@@ -26,6 +26,11 @@ $(document).ready(function(){
             $('.sk').removeClass('yellow-gold');
            
         }
+
+        if(scroll_pos>2500){
+            $('#skills').removeClass('dark');
+        }
+
     });
 });
 

@@ -65,6 +65,8 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/6.0.3/typeit.min.js"></script>
+
 
 
 
@@ -113,7 +115,7 @@
                             Welcome to the portfolio of
                         </h5>
                         <h1 class="yellow-gold brand-h1" id="app">
-                            Prerna
+                          
                         </h1>
                         <h1 class="slight-right brand-h1">
                             Bajaj
@@ -519,7 +521,17 @@
     </section>
 
 
-    
+    <script>
+        new TypeIt('#app', {
+        speed: 250,
+        startDelay: 900,
+        cursorChar:"",
+        loop:true
+        })
+        .type('Prerna')
+        .pause(300)
+        .go();
+    </script>
 
 
 
